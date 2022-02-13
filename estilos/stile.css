@@ -1,0 +1,75 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-size: cover;
+  height: 100vh;
+}
+
+.left {
+  background: url(/img/teddybear.jpg);
+  height: 100vh;
+}
+.right {
+  background-color: #1e1e1e;
+}
+
+h1 {
+  color: rosybrown;
+  text-align: center;
+}
+#title {
+  background-color: #ff9fd2;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+p {
+  color: #ffff;
+  height: 30%;
+}
+.c0 {
+  color: #f1f1f9;
+}
+.c1 {
+  color: green;
+}
+
+.circulo {
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ce230c;
+}
+
+.circulo.izquierdo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.circulo.derecho {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+}
+.rombo-seguridad {
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  border-right: 15px solid blue;
+  border-bottom: 15px solid yellow;
+
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+
+  position: absolute;
+ right: 50%;
+ top: 50%;
+}
