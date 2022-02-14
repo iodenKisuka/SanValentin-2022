@@ -17,15 +17,13 @@
   background-color: #1e1e1e;
 }
 
-h1 {
-  color: rosybrown;
-  text-align: center;
-}
-#title {
+#headertitle {
   background-color: #ff9fd2;
   padding: 10px;
   padding-bottom: 30px;
 }
+
+
 p {
   color: #ffff;
   height: 30%;
@@ -56,20 +54,62 @@ p {
   right: 50%;
   top: 50%;
 }
-.rombo-seguridad {
-  margin: 20px;
-  width: 150px;
-  height: 150px;
-  border-right: 15px solid blue;
-  border-bottom: 15px solid yellow;
 
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
 
-  position: absolute;
- right: 50%;
- top: 50%;
+
+
+.corazon {
+  animation: latido 1s infinite;
+  background-color: red;
+  display: inline-block;
+  height: 50px;
+  margin: 0 10px;
+  top: 0;
+  transform: rotate(-45deg);
+  position: relative; 
+  left: 45%; 
+  top: 45%;
+  width: 50px;
 }
+
+.corazon:before,
+.corazon:after {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.corazon:before {
+  top: -25px;
+  left: 0;
+}
+
+.corazon:after {
+  left: 25px;
+  top: 0;
+}
+
+@keyframes latido {
+  0%
+  {
+    transform: scale( 1 )
+      rotate(-45deg);    
+  }
+  20%
+  {
+    transform: scale( 1.25 )
+      rotate(-45deg);  
+  }
+   40%
+  {
+    transform: scale( 1.5 )
+      rotate(-45deg);
+  }
+}
+
+
+
+

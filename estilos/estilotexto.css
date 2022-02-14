@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+  
+}
+
+.title-word-1 {
+  --color-1: #770002;
+  --color-2: #E30031;
+  --color-3: #df36ac;
+}
+
+
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
