@@ -24,3 +24,83 @@ h1{
   99%   {color: var(--color-3)}
   100%  {color: var(--color-1)}
 }
+
+
+
+/*Sombreado **/
+
+.white-with-blue-shadow {
+   text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 170), 0 0 0.2em rgb(255, 0, 170);
+   color: white;
+   font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+}
+
+
+
+.area{
+  text-align:center;
+  font-size:1.5em;
+  color:#fff;
+  letter-spacing: -7px;
+  font-weight:10;
+  text-transform:uppercase;
+  animation:blur 2s ease-out infinite;
+  text-shadow:0px 0px 5px #fff,
+      0px 0px 7px #ff0000;
+}
+
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #ff0099,
+      0px 0px 150px #ff0099,
+      0px 10px 100px #ff0099,
+      0px 10px 100px #ff0099,
+      0px 10px 100px #ff0099,
+      0px 10px 100px #ff0099,
+      0px -10px 100px #ff0099,
+      0px -10px 100px #ff0099;
+	  }
+}
+
+
+
+/** Lado izquierdo **/
+p {
+  color: #ffff;
+  height: 30%;
+}
+.c0 {
+  color: #17c9cf;
+}
+.c1 {
+  color: rgb(228, 105, 180);
+}
+
+.cm-number{
+    color: #9171DE;
+}
+.cm-operator{
+ color: #FF7DA3;
+}
+.cm-variable{
+color: #4ECEE4;
+}
+.cm-variable-2{
+ color: #a7cf17;
+}
+.cm-def{
+    color: #80EAB4;
+}
+.CodeMirror-code{
+    color: #fff;
+}

@@ -16,11 +16,23 @@
     <div class="container">
         <div class="division left">
             <div id="headertitle">
-                <H1 class="title">
-                    <span class="title-word title-word-1">SAN VALENTIN</span> 💕
-                </H1>
+                <div class="white-with-blue-shadow">
+                    <H1 class="title">
+                        <span class="title-word title-word-1">SAN VALENTIN</span> 💕
+                    </H1>
+                </div>
             </div>
+
+            <div id="formulario">
+                <form>
+                    <input type="text" placeholder="Escribe el nombre de la persona que amas" required>
+                    <br>
+                    <button> Enviar</button>
+                </form>
+            </div>
+
             <div class="circulo izquierdo"></div>
+
 
             <div class="corazon"></div>
 
@@ -31,27 +43,28 @@
 
 
         <div class="division right">
-            <h1> parte 2</h1>
+
             <div class="circulo derecho">
 
             </div>
 
-            <p>
+            <p class="codigo">
                 <span class="c0">
                     function</span> corazon(r, paso) {
-                let puntos = [];
-                for (var a = <span class="c1">0 </span>; a < <span class="c1">2</span> * Math.PI; a +=paso) { let p={};
-                    p.x=cx + 16 * r * (Math.sin(a) * Math.sin(a) * Math.sin(a));
-                    p.y=cy - <span class="c1">13</span> * r * Math.cos(a) + <span class="c1">5</span> * r * Math.cos(2 *
-                    a) + 2 * r * Math.cos(3 * a) + 1 * r * Math.cos(4 * a);
-                    puntos.push(p); } return puntos; }
+                <span class="c0">let</span> puntos = [];
+                <span class="c0">for</span> ( <span class="c0">var</span> a = <span class="c1">0 </span>; a < <span class="c1">2</span> * Math.<span class="c0">PI </span>; a +=paso) { <span class="c0">let </span> p={};
+                    p.x=cx + <span class="c1">16</span> * r * (Math.sin(a) * Math.sin(a) * Math.sin(a));
+                    p.y=cy - <span class="c1">13</span> * r * Math.cos(a) + <span class="c1">5</span> * r * Math.cos(<span class="c1">2</span> *
+                    a) + <span class="c1">2</span> * r * Math.cos(<span class="c1">3</span> * a) + <span class="c1">1</span> * r * Math.cos(<span class="c1">4</span> * a);
+                    puntos.push(p); } 
+                    <span class="c0"> return </span> puntos; }
             </p>
 
             <p class="infinito">
                 using System;
                 namespace tp1
                 {
-                class PruebaAB
+                class Teamo
                 {
                 public static void Main(string[] args)
                 {
@@ -60,6 +73,51 @@
                 Console.WriteLine("Te Amo");
                 }
             </p>
+
+
+
+
+<div class="CodeMirror-code"  style="text-rendering: auto;">
+    
+        <span  style="padding-right: 0.1px;"><span class="cm-keyword">function</span> <span class="cm-def">corazon</span>(<span class="cm-def">r</span>, <span class="cm-def">paso</span>) {</span></pre>
+    <pre class=" CodeMirror-line "
+        >
+        <span  style="padding-right: 0.1px;"> &nbsp;<span class="cm-keyword">let</span> <span class="cm-def">puntos</span> <span class="cm-operator">=</span> [];</span></pre>
+    <pre class=" CodeMirror-line "
+        ><span  style="padding-right: 0.1px;"> &nbsp;<span class="cm-keyword">for</span> (<span class="cm-keyword">var</span> <span class="cm-def">a</span> <span class="cm-operator">=</span> <span class="cm-number">0</span>; <span class="cm-variable-2">a</span> <span class="cm-operator">&lt;</span> <span class="cm-number">2</span> <span class="cm-operator">*</span> <span class="cm-variable">Math</span>.<span class="cm-property">PI</span>; <span class="cm-variable-2">a</span> <span class="cm-operator">+=</span> <span class="cm-variable-2">paso</span>) {</span></pre>
+    <pre class=" CodeMirror-line "
+        ><span  style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-keyword">let</span> <span class="cm-def">p</span> <span class="cm-operator">=</span> {};</span></pre>
+    <pre class=" CodeMirror-line "
+        ><span  style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable-2">p</span>.<span class="cm-property">x</span> <span class="cm-operator">=</span> <span class="cm-variable">cx</span> <span class="cm-operator">+</span> <span class="cm-number">16</span> <span class="cm-operator">*</span> <span class="cm-variable-2">r</span> <span class="cm-operator">*</span> (<span class="cm-variable">Math</span>.<span class="cm-property">sin</span>(<span class="cm-variable-2">a</span>) <span class="cm-operator">*</span> <span class="cm-variable">Math</span>.<span class="cm-property">sin</span>(<span class="cm-variable-2">a</span>) <span class="cm-operator">*</span> <span class="cm-variable">Math</span>.<span class="cm-property">sin</span>(<span class="cm-variable-2">a</span>));</span></pre>
+    <pre class=" CodeMirror-line "
+        ><span  style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable-2">p</span>.<span class="cm-property">y</span> <span class="cm-operator">=</span></span></pre>
+    <pre class=" CodeMirror-line "
+        ><span  style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;<span class="cm-variable">cy</span> <span class="cm-operator">-</span></span></pre>
+    <pre class=" CodeMirror-line "
+        ><span  style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;<span class="cm-number">13</span> <span class="cm-operator">*</span> <span class="cm-variable-2">r</span> <span class="cm-operator">*</span> <span class="cm-variable">Math</span>.<span class="cm-property">cos</span>(<span class="cm-variable-2">a</span>) <span class="cm-operator">+</span></span></pre>
+    <pre class=" CodeMirror-line "
+        ><span  style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;<span class="cm-number">5</span> <span class="cm-operator">*</span> <span class="cm-variable-2">r</span> <span class="cm-operator">*</span> <span class="cm-variable">Math</span>.<span class="cm-property">cos</span>(<span class="cm-number">2</span> <span class="cm-operator">*</span> <span class="cm-variable-2">a</span>) <span class="cm-operator">+</span></span></pre>
+    <pre class=" CodeMirror-line "
+        ><span  style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;<span class="cm-number">2</span> <span class="cm-operator">*</span> <span class="cm-variable-2">r</span> <span class="cm-operator">*</span> <span class="cm-variable">Math</span>.<span class="cm-property">cos</span>(<span class="cm-number">3</span> <span class="cm-operator">*</span> <span class="cm-variable-2">a</span>) <span class="cm-operator">+</span></span></pre>
+    <pre class=" CodeMirror-line "
+        ><span  style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;<span class="cm-number">1</span> <span class="cm-operator">*</span> <span class="cm-variable-2">r</span> <span class="cm-operator">*</span> <span class="cm-variable">Math</span>.<span class="cm-property">cos</span>(<span class="cm-number">4</span> <span class="cm-operator">*</span> <span class="cm-variable-2">a</span>);</span></pre>
+    <pre class=" CodeMirror-line "
+        ><span  style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable-2">puntos</span>.<span class="cm-property">push</span>(<span class="cm-variable-2">p</span>);</span></pre>
+    <pre class=" CodeMirror-line "
+        ><span  style="padding-right: 0.1px;">  }</span></pre>
+    <pre class=" CodeMirror-line "
+        ><span  style="padding-right: 0.1px;"> &nbsp;<span class="cm-keyword">return</span> <span class="cm-variable-2">puntos</span>;</span></pre>
+    <pre class=" CodeMirror-line "
+        ><span  style="padding-right: 0.1px;">}<span class="cm-variable">o</span>(<span class="cm-variable">f</span>, <span class="cm-variable">seed</span>, [])</span></pre>
+    <pre class=" CodeMirror-line "
+        ><span  style="padding-right: 0.1px;">}</span></pre>
+</div>
+            
+
+
+
+
+            
 
         </div>
 
