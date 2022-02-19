@@ -104,3 +104,10 @@ color: #4ECEE4;
 .CodeMirror-code{
     color: #fff;
 }
+.cm-string{
+    color: #E30031;
+}
+.cm-variable-3{
+    color: #e6d220;
+}
+

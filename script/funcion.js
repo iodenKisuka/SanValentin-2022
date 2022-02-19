@@ -48,3 +48,30 @@ falso retorno;
 return true;
 
 }
+
+
+
+
+<p class="infinito">
+
+               <span class="cm-variable-5">using System;</span> 
+              <span class="cm-variable-6"> namespace sanvalentin</span> 
+             <span class="cm-variable-4"> {</span>  
+             <span class="cm-variable-5"> class Teamo</span>  
+          <span class="cm-variable-4">{</span> 
+             <span class="cm-variable-6"> public static void Main(string[] args)</span>  
+            <span class="cm-variable-4">{</span>    
+           <span class="cm-variable-5"> while (true)</span>    
+         <span class="cm-variable-4">{</span>       
+        
+    <span class="cm-variable">Console</span>.<span class="cm-variable-3">WriteLine</span>
+<span class="cm-variable-3">(</span><span class="cm-string">"Te
+    Amo"</span><span class="cm-variable-3">);</span></span>
+    
+         <span class="cm-variable-4"> } </span>
+            </p>
+
+
+<span class="cm-variable">Console</span>.<span class="cm-variable-3">WriteLine</span>
+<span class="cm-variable-3">(</span><span class="cm-string">"Te
+    Amo"</span><span class="cm-variable-3">);</span></span>
